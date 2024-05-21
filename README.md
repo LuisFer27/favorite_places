@@ -98,6 +98,23 @@ y escoger nuestro dispositivo principalmente movil ya que en este caso podemos s
 
 ## Funcionalidad.
 
+![1716255117897](image/README/1716255117897.png)
+
+boton de más permite agregar un nuevo registro apartir de un formulario 
+
+![1716255170740](image/README/1716255170740.png)
+
+Formulario permite agregar un nuevo lufgar tomando una foto 
+
+Title permite meter un titulo con referente a la foto 
+
+Take picture permite agregar una foto nueva 
+
+Add place permite agregar el lugar 
+
+Lista Permite visualizar una foto de esta forma 
+
+![1716255289445](image/README/1716255289445.png)
 
 ```
 

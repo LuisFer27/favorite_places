@@ -16,7 +16,7 @@ class PlacesList extends StatelessWidget {
           style: Theme.of(context)
               .textTheme
               .bodyLarge!
-              .copyWith(color: Theme.of(context).colorScheme.onBackground),
+              .copyWith(color: Theme.of(context).colorScheme.onSurface),
         ),
       );
     }
@@ -32,7 +32,7 @@ class PlacesList extends StatelessWidget {
           style: Theme.of(context)
               .textTheme
               .titleMedium!
-              .copyWith(color: Theme.of(context).colorScheme.onBackground),
+              .copyWith(color: Theme.of(context).colorScheme.onSurface),
         ),
         onTap: () {
           Navigator.of(context).push(MaterialPageRoute(
