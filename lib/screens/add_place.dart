@@ -43,13 +43,15 @@ class _AddPlaceScreenState extends ConsumerState<AddPlaceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add new Place'),
+        //title: const Text('Add new Place'),
+        title: const Text('Añade un nuevo lugar'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(12),
         child: Column(children: [
           TextField(
-            decoration: const InputDecoration(labelText: 'Title'),
+            //decoration: const InputDecoration(labelText: 'Title'),
+            decoration: const InputDecoration(labelText: 'Titulo'),
             controller: _titleController,
             style: TextStyle(
               color: Theme.of(context).colorScheme.onSurface,
@@ -74,7 +76,8 @@ class _AddPlaceScreenState extends ConsumerState<AddPlaceScreen> {
           ElevatedButton.icon(
             onPressed: _savePlace,
             icon: const Icon(Icons.add),
-            label: const Text('Add Place'),
+            //label: const Text('Add Place'),
+            label: const Text('Añadir Lugar'),
           ),
         ]),
       ),

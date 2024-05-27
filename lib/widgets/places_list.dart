@@ -12,7 +12,8 @@ class PlacesList extends StatelessWidget {
     if (places.isEmpty) {
       return Center(
         child: Text(
-          'No places added yet',
+          //'No places added yet',
+          'No hay lugares añadidos',
           style: Theme.of(context)
               .textTheme
               .bodyLarge!
